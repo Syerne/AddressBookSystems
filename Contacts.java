@@ -77,4 +77,18 @@ public class Contacts {
     public String getEmail() {
         return email;
     }
+
+    @Override
+    public String toString() {
+        return "Contacts{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zip=" + zip +
+                ", phoneNo=" + phoneNo +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
